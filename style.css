@@ -23,7 +23,7 @@ nav h1 {
 .container-qr-generated {
     display: inline-block;
     position: relative;
-    height: 100vh;
+    height: 100%;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -87,7 +87,7 @@ nav h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    animation: animasimasuk 10s ease-in-out;
+    animation: animasimasuk 4s ease-out;
 }
 
 @keyframes animasimasuk {
