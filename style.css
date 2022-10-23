@@ -84,7 +84,7 @@ nav h1 {
     opacity: 0;
     z-index: 0;
     background-color: #251641;
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
     animation: animasimasuk 4s ease-out;
