@@ -1,7 +1,3 @@
-// $(window).on("load", function() {
-//     $(".loader-wrapper").fadeOut("slow");
-// });
-
 function generateQr() {
     let canvas = document.getElementById("canvas");
     let url = document.getElementById("qrInput");
