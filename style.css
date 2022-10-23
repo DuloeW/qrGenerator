@@ -21,7 +21,6 @@ nav h1 {
 }
 
 .container-qr-generated {
-    display: inline-block;
     position: relative;
     height: 100%;
     width: 100%;
