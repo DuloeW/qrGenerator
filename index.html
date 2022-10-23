@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="jquery-2.1.4.js"></script>
+    <title>QrCode generator</title>
+</head>
+
+<body>
+
+    <nav>
+        <h1>Qr Generator</h1>
+    </nav>
+
+    <div class="container-qr-generated">
+        <canvas id="canvas"></canvas>
+        <label for="qrInput">Masukan link</small></label>
+        <div class="container-input">
+            <input placeholder="https://youtube.com" id="qrInput" />
+            <button id="submit" onclick="generateQr()">Kirim</button>
+        </div>
+    </div>
+
+    <div class="loader-wrapper">
+        <div class="combine-two">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
+    <script src="node_modules/qrcode/build/qrcode.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
